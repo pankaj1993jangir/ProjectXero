@@ -1,29 +1,28 @@
 {
   "expo": {
     "name": "projectXXero",
+    "description": "Fashion Affects Always",
     "slug": "projectXXero",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/xero_icon.png",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/xero_splash.png",
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/xero_icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.project.xero"
     },
     "web": {
       "favicon": "./assets/favicon.png"
